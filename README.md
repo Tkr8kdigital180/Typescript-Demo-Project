@@ -36,3 +36,13 @@ Dieses Projekt wurde entwickelt, um DevOps-Workflows mit npm, Jenkins und GitHub
 ## Übungen
 
 Siehe `exercises/AUDIT_UPDATE.md` für Anweisungen zum Üben von Paket-Audits und -Updates.
+
+## Abgabe
+
+- Branch erstellen: `exercise/ci-audit-<INITIALEN>`
+- Dateien einfügen:
+  - `Jenkinsfile`
+  - `ci.yml`
+  - Dokumentation / Screenshots
+  - Reflektion
+- Pull Request gegen `main` erstellen.
