@@ -4,15 +4,20 @@ Dieses Projekt wurde entwickelt, um DevOps-Workflows mit npm, Jenkins und GitHub
 
 ## Erste Schritte
 
-1.  Abhängigkeiten installieren:
+1.  Repository klonen:
+    ```bash
+    git clone https://github.com/StephanLoecher/Typescript-Demo-Project.git
+    cd Typescript-Demo-Project
+    ```
+2.  Abhängigkeiten installieren:
     ```bash
     npm install
     ```
-2.  Projekt bauen:
+3.  Projekt bauen:
     ```bash
     npm run build
     ```
-3.  Tests ausführen:
+4.  Tests ausführen:
     ```bash
     npm test
     ```
