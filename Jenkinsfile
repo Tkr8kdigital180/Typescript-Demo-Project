@@ -26,7 +26,10 @@ pipeline{
                 sh "npm update"
             }    
         }     
-            post{
+            
+        }
+
+        post{
                 success{
                     cleanWs()
                 }
@@ -34,5 +37,6 @@ pipeline{
                     echo "Ein Fehler ist aufgetreten"
                 }
             }
-        }
+
+
     }
