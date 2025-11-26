@@ -27,7 +27,7 @@ pipeline{
                     cleanWs()
                 }
                 failure{
-                    echo "========A execution failed========"
+                    echo "Ein Fehler ist aufgetreten"
                 }
             }
         }
